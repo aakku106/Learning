@@ -9,7 +9,7 @@ export async function GET() {
     const jsonFilePath = path.join(process.cwd(), "db.json");
     const fileContent = await fs.readFile(jsonFilePath, "utf-8");
     const data = JSON.parse(fileContent);
-    const vehiclesData = data.vechicles;
+    const vehiclesData = data.vehicles;
 
     if (!vehiclesData) {
       return NextResponse.json(

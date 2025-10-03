@@ -12,7 +12,7 @@ const Automibiles = () => {
   useEffect(() => {
     const fetchData = async () => {
       try {
-        const response = await axios.get("/api/vechicles");
+        const response = await axios.get("/api/vehicles");
         setVehiclesData(response.data);
       } catch (error) {
         setError(error.message);
