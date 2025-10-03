@@ -3,6 +3,7 @@
 import React from "react";
 import "./pageStyle.css";
 import Fashion from "./Fashion";
+import Vehicles from "./Vehicles";
 
 const page = () => {
   return (
@@ -11,6 +12,7 @@ const page = () => {
       <section>
         <div>
           <h2>Automobiles</h2>
+          <Vehicles />
         </div>
         <div>
           <h2>Electronics</h2>

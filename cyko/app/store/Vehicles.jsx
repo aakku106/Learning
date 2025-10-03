@@ -4,7 +4,7 @@
 import React, { useState, useEffect } from "react";
 import axios from "axios";
 
-const Automibiles = () => {
+const Vehicles = () => {
   const [vehiclesData, setVehiclesData] = useState(null);
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState(null);
@@ -34,14 +34,15 @@ const Automibiles = () => {
 
   return (
     <>
-      <h1>Automobiles</h1>
+      <h1>Vehicles</h1>
       <div>
         <h2>Cars</h2>
         {vehiclesData?.car && (
           <ul>
             {vehiclesData.car.map((item) => (
               <li key={item.id}>
-                {item.name} - {item.brand}
+                {item.name} - {item.brand} - ${item.price} - Stock:{" "}
+                {item.quantity}
               </li>
             ))}
           </ul>
@@ -53,7 +54,8 @@ const Automibiles = () => {
           <ul>
             {vehiclesData.bike.map((item) => (
               <li key={item.id}>
-                {item.name} - {item.brand}
+                {item.name} - {item.brand} - ${item.price} - Stock:{" "}
+                {item.quantity}
               </li>
             ))}
           </ul>
@@ -63,4 +65,4 @@ const Automibiles = () => {
   );
 };
 
-export default Automibiles;
+export default Vehicles;
