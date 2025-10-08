@@ -46,7 +46,9 @@ const Fashion = () => {
             </h2>
           </div>
 
-          <div className="space-y-4 max-h-[600px] overflow-y-auto pr-2 custom-scrollbar">
+          <div
+            className="space-y-4 max-h-[600px] overflow-y-auto pr-2 custom-scrollbar"
+            data-lenis-prevent>
             {/* Trendy Outfits */}
             {fashionData?.cloths && (
               <div className="collapse collapse-arrow bg-base-200/50 backdrop-blur-md">
