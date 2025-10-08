@@ -12,7 +12,7 @@ const page = () => {
       <div className="container mx-auto max-w-7xl">
         {/* Hero Header */}
         <div className="text-center mb-16">
-          <h1 className="text-7xl font-black mb-4 bg-gradient-to-r from-cyan-400 via-purple-400 to-pink-400 bg-clip-text text-transparent animate-pulse">
+          <h1 className="text-7xl font-black mb-4 bg-gradient-to-r from-cyan-400 via-purple-400 to-pink-400 bg-clip-text text-transparent ">
             Shopping App
           </h1>
           <p className="text-xl text-gray-300 font-light">
