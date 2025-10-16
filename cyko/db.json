@@ -242,5 +242,28 @@
         "quantity": 20
       }
     ]
-  }
+  },
+  "users": [
+    {
+      "id": 1,
+      "name": "ccn",
+      "age": 106,
+      "userName": "ccnSamma",
+      "password": "124"
+    },
+    {
+      "id": 2,
+      "name": "aakku",
+      "age": 16,
+      "userName": "aakkuSamma",
+      "password": "124"
+    },
+    {
+      "id": 3,
+      "name": "toffu",
+      "age": 18,
+      "userName": "toffuSamma",
+      "password": "124"
+    }
+  ]
 }
