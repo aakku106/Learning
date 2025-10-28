@@ -12,6 +12,7 @@ export default function Nav() {
         <Link href="/about">About</Link>
         <Link href="/store">Store</Link>
         <Link href="/login">Login</Link>
+        <Link href="/atlas">Atlas Sample</Link>
       </nav>
     </>
   );
