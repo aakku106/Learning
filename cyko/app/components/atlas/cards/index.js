@@ -1,3 +1,5 @@
+"use client";
+
 import MovieCard from "./MovieCard";
 import TheaterCard from "./TheaterCard";
 import CommentCard from "./CommentCard";

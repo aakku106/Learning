@@ -1,3 +1,5 @@
+"use client";
+
 export default function TheaterCard({ item }) {
   const subtitle = item?.subtitle;
   const address = item?.description;

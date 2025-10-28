@@ -1,3 +1,5 @@
+// "use client";
+
 import LoadingGrid from "./LoadingGrid";
 import { getCardComponent } from "./cards";
 

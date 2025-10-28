@@ -1,3 +1,5 @@
+"use client";
+
 export default function MovieCard({ item }) {
   const genres = Array.isArray(item?.meta?.genres) ? item.meta.genres : [];
   const imdbScore =

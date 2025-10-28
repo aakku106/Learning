@@ -1,3 +1,5 @@
+// "use client";
+
 import { SKELETON_COUNT } from "./constants";
 
 const placeholders = Array.from({ length: SKELETON_COUNT });
