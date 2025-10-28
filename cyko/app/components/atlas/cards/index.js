@@ -1,4 +1,4 @@
-"use client";
+// "use client";
 
 import MovieCard from "./MovieCard";
 import TheaterCard from "./TheaterCard";
