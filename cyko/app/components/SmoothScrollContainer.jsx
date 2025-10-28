@@ -17,7 +17,7 @@ export default function SmoothScrollContainer({ children, className }) {
         direction: "vertical",
         gestureDirection: "vertical",
         smooth: true,
-        smoothTouch: false,
+        smoothTouch: true,
         touchMultiplier: 2,
       });
 
