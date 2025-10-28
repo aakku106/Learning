@@ -1,9 +1,13 @@
+"use client";
+
 import { useEffect, useState } from "react";
 import axios from "axios";
 import { SECTIONS, createInitialSectionsState } from "./constants";
 
 export function useAtlasSections() {
-  const [sectionsState, setSectionsState] = useState(createInitialSectionsState);
+  const [sectionsState, setSectionsState] = useState(
+    createInitialSectionsState
+  );
 
   useEffect(() => {
     const controller = new AbortController();
@@ -39,7 +43,10 @@ export function useAtlasSections() {
             return;
           }
 
-          if (error?.code === "ERR_CANCELED" || error?.name === "CanceledError") {
+          if (
+            error?.code === "ERR_CANCELED" ||
+            error?.name === "CanceledError"
+          ) {
             return;
           }
 
